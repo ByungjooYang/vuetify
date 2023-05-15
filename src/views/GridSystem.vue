@@ -143,7 +143,29 @@
                         Col
                     </v-card>
                 </v-col>
-                <v-col>
+                <v-col cols="auto"> <!-- 내부 컨텐츠 만큼 -->
+                    <v-card class="pa-3" outlined>
+                        Col
+                    </v-card>
+                </v-col>
+            </v-row>
+        </v-card>
+
+
+
+        <v-card class="mt-5 pa-3">
+            <v-row justify="center">
+                <v-col cols="auto"> <!-- center, end, start, space-between, space-around  -->
+                    <v-card class="pa-3" outlined>
+                        Col
+                    </v-card>
+                </v-col>
+                <v-col cols="auto">
+                    <v-card class="pa-3" outlined>
+                        Col
+                    </v-card>
+                </v-col>
+                <v-col cols="auto"> <!-- 내부 컨텐츠 만큼 -->
                     <v-card class="pa-3" outlined>
                         Col
                     </v-card>
