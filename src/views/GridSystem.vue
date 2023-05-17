@@ -145,7 +145,7 @@
                 </v-col>
                 <v-col cols="auto"> <!-- 내부 컨텐츠 만큼 -->
                     <v-card class="pa-3" outlined>
-                        Col
+                        Col능
                     </v-card>
                 </v-col>
             </v-row>
