@@ -4,6 +4,7 @@ import Dashboard from "@/views/Dashboard.vue";
 import GridSystem from "@/views/GridSystem.vue";
 import GridListPage from "@/views/GridListPage.vue";
 import BreakpointsComponent from "@/views/BreakpointsComponent.vue";
+import BreakpointsExample from "@/views/BreakpointsExample.vue";
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
         name: "BreakpointsComponent",
         component: BreakpointsComponent
     },
+    {
+        path: "/BreakpointsExample",
+        name: "BreakpointsExample",
+        component: BreakpointsExample
+    }
 ]
 
 const router = new VueRouter({
