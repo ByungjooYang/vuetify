@@ -5,6 +5,11 @@ import GridSystem from "@/views/GridSystem.vue";
 import GridListPage from "@/views/GridListPage.vue";
 import BreakpointsComponent from "@/views/BreakpointsComponent.vue";
 import BreakpointsExample from "@/views/BreakpointsExample.vue";
+import TypographyMain from "@/views/TypographyMain.vue";
+import TableMain from "@/views/TableMain.vue";
+import FormMain from "@/views/FormMain.vue";
+import ButtonMain from "@/views/ButtonMain.vue";
+import IconMain from "@/views/IconMain.vue";
 
 Vue.use(VueRouter)
 
@@ -33,6 +38,31 @@ const routes = [
         path: "/BreakpointsExample",
         name: "BreakpointsExample",
         component: BreakpointsExample
+    },
+    {
+        path: "/typographyMain",
+        name: "TypographyMain",
+        component: TypographyMain
+    },
+    {
+        path: "/tableMain",
+        name: "TableMain",
+        component: TableMain
+    },
+    {
+        path: "/formMain",
+        name: "FormMain",
+        component: FormMain
+    },
+    {
+        path: "/buttonMain",
+        name: "ButtonMain",
+        component: ButtonMain
+    },
+    {
+        path: "/iconMain",
+        name: "IconMain",
+        component: IconMain
     }
 ]
 
